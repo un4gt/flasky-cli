@@ -6,9 +6,9 @@ running automated jobs).
 
 import os
 
-_disable_rich_cli = os.environ.get("RICH_CLI", "").lower() in {
-    "0",
-    "false"
+_disable_rich_cli = os.environ.get("NO_RICH", "").lower() in {
+    "1",
+    "true"
 }
 if _disable_rich_cli:
     import click
