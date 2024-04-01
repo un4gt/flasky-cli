@@ -1,6 +1,6 @@
 # Flask-CLI
 
-'copy' from [Neoteroi/BlackSheep-CLI](https://github.com/Neoteroi/BlackSheep-CLI) .
+From [Neoteroi/BlackSheep-CLI](https://github.com/Neoteroi/BlackSheep-CLI) .
 
 🛠️ CLI to start [flask](https://github.com/pallets/flask) projects.
 
