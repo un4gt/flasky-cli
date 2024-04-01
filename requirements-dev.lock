@@ -21,13 +21,13 @@ charset-normalizer==3.3.2
     # via requests
 click==8.1.7
     # via cookiecutter
-    # via flask-cli
+    # via flasky-cli
     # via rich-click
 colorama==0.4.6
     # via click
     # via pytest
 cookiecutter==2.6.0
-    # via flask-cli
+    # via flasky-cli
 idna==3.6
     # via requests
 iniconfig==2.0.0
@@ -43,7 +43,7 @@ mdurl==0.1.2
 packaging==24.0
     # via pytest
 pathvalidate==3.2.0
-    # via flask-cli
+    # via flasky-cli
 pluggy==1.4.0
     # via pytest
 prompt-toolkit==3.0.36
@@ -58,14 +58,14 @@ python-slugify==8.0.4
 pyyaml==6.0.1
     # via cookiecutter
 questionary==2.0.1
-    # via flask-cli
+    # via flasky-cli
 requests==2.31.0
     # via cookiecutter
 rich==13.7.1
     # via cookiecutter
     # via rich-click
 rich-click==1.7.4
-    # via flask-cli
+    # via flasky-cli
 six==1.16.0
     # via python-dateutil
 text-unidecode==1.3
