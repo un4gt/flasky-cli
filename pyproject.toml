@@ -1,6 +1,6 @@
 [project]
 name = "flasky-cli"
-version = "0.1.6"
+version = "0.1.7"
 description = " CLI to start Flask projects"
 authors = [
     { name = "jennier0107", email = "mt3085570450@outlook.com" }
@@ -40,4 +40,4 @@ flask-cli = "flask_cli.cli.main:main"
 packages = ["src/flask_cli"]
 
 [tool.hatch.build.targets.sdist]
-exclude = ["tests"]
+exclude = ["tests", "static"]
