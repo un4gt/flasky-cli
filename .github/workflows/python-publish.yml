@@ -1,0 +1,37 @@
+---
+name: Release
+
+"on":
+  release:
+    types:
+      - published
+  push:
+    tags:
+      - 'v*'
+    
+
+jobs:
+  release_to_pypi:
+    name: Release to PyPI
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/p/flasky-cli
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Search and replace version
+        run: |
+          VERSION="${TAG_NAME//v/}"
+          sed -i "s/1\.0+versionplaceholder\.1/$VERSION/" pyproject.toml
+        env:
+          TAG_NAME: ${{ github.event.release.tag_name }}
+      - uses: eifinger/setup-rye@v2
+        with:
+          enable-cache: true
+      - name: Build
+        run: |
+          rye build --clean
+      - name: pypi-publish
+        uses: pypa/gh-action-pypi-publish@v1.8.14
