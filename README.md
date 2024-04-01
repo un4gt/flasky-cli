@@ -36,6 +36,32 @@ With details:
 flask-cli templates details
 ```
 
+## Cli mode
+By default, the rich mode is active .
+![rich](static/cli_rich_mode.png)
+### Deactivate rich mode
+#### Windows
+```commandline
+set NO_RICH=1
+```
+or
+```commandline
+set NO_RICH=True
+```
+
+#### Linux/macOS
+```commandline
+export NO_RICH=1
+```
+or
+```commandline
+export NO_RICH=True
+```
+
+![no_rich](static/no_rich_mode.png)
+
+reactivate rich mode use `NO_RICH=0` or `NO_RICH=False`    
+
 
 ## Thanks
 
