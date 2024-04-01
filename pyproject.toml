@@ -28,6 +28,11 @@ dev-dependencies = [
 [tool.hatch.metadata]
 allow-direct-references = true
 
+[project.urls]
+Homepage = "https://github.com/jennier0107/flasky-cli"
+Repository = "https://github.com/jennier0107/flasky-cli"
+"Bug Tracker" = "https://github.com/jennier0107/flasky-cli/issues"
+
 [project.scripts]
 flask-cli = "flask_cli.cli.main:main"
 
