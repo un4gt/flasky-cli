@@ -43,6 +43,13 @@ def _default_templates():
                 "description": (
                     "Flask Starter Project"
                 )
+            },
+            {
+                "id": "Flask-API",
+                "source": "https://github.com/jennier0107/Flask-API",
+                "description": (
+                    "Cookiecutter template to create new flask application to build a Web API"
+                )
             }
         ]
     }
