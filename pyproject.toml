@@ -1,6 +1,6 @@
 [project]
 name = "flasky-cli"
-version = "0.1.9"
+version = "1.0.0"
 description = " CLI to start Flask projects"
 authors = [
     { name = "jennier0107", email = "mt3085570450@outlook.com" }
@@ -35,6 +35,7 @@ Repository = "https://github.com/jennier0107/flasky-cli"
 
 [project.scripts]
 flask-cli = "flask_cli.cli.main:main"
+
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/flask_cli"]
