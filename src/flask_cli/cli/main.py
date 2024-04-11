@@ -1,5 +1,5 @@
 from flask_cli.common import click
-from flask_cli.create.cli import create
+from flask_cli.create.cli import create_project
 from flask_cli.templates.cli import templates
 
 
@@ -10,5 +10,5 @@ def main():
     """
 
 
-main.add_command(create)
+main.add_command(create_project)
 main.add_command(templates)

@@ -17,13 +17,6 @@ def print_instructions(destination: str):
     console.print("-- Let's get flasky! --")
 
 
-@click.group()
-def create():
-    """
-    Commands to create templates.
-    """
-
-
 @click.command(name="create")
 @click.option(
     "--template",
@@ -52,6 +45,3 @@ def create_project(
     destination = cookiecutter(template_obj['source'])
 
     print_instructions(destination)
-
-
-create.add_command(create_project)
