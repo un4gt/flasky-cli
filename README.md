@@ -25,6 +25,11 @@ pip install flasky-cli
 flask-cli create
 ```
 
+## Createing a new project with template name
+```bash
+flask-cli create --template <template>
+```
+
 ## Listing the project templates
 
 ```bash
