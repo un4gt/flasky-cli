@@ -17,7 +17,8 @@ pip install flasky-cli
 - [cookiecutter-flask-minimal](https://github.com/candidtim/cookiecutter-flask-minimal)
 - [cookiecutter-flask-skeleton](https://github.com/testdrivenio/cookiecutter-flask-skeleton)
 - [cookiecutter-Flask-Foundation](https://github.com/JackStouffer/cookiecutter-Flask-Foundation)
-- [Flask-API](https://github.com/jennier0107/Flask-API)
+- [Flask-API](https://github.com/un4gt/Flask-API)
+- [Flask-MVC](https://github.com/un4gt/Flask-MVC)
 
 ## Creating a new project
 
