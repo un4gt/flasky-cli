@@ -1,6 +1,6 @@
 [project]
 name = "flasky-cli"
-version = "1.0.2"
+version = "1.0.3"
 description = " CLI to start Flask projects"
 authors = [
     { name = "jennier0107", email = "mt3085570450@outlook.com" }
