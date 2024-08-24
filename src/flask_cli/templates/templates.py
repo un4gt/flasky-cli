@@ -1,6 +1,11 @@
 TEMPLATES = {'Flask-API': {'description': 'Cookiecutter template to create new flask '
                                           'application to build a Web API',
-                           'source': 'https://github.com/jennier0107/Flask-API'},
+                           'source': 'https://github.com/un4gt/Flask-API'},
+             'Flask-MVC': {
+                 'description': 'Cookiecutter template to create new flask '
+                                          'application to build a MVC App',
+                 'source': 'https://github.com/un4gt/Flask-MVC.git'
+             },
              'cookiecutter-Flask-Foundation': {'description': 'Cookiecutter fork of Flask '
                                                               'Foundation',
                                                'source': 'https://github.com/JackStouffer/cookiecutter-Flask-Foundation'},
